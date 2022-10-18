@@ -1,3 +1,9 @@
+![1](https://user-images.githubusercontent.com/30512638/196490818-5cd6282c-1f94-44ba-b5fd-dc82707097d3.png)
+
+![2](https://user-images.githubusercontent.com/30512638/196490831-a9d5359d-1231-4ce1-9681-23077a80c3fb.png)
+
+![3](https://user-images.githubusercontent.com/30512638/196490841-8c31f18e-4172-49b1-84b9-78ee39859f48.png)
+
 Built using:
 
 - Front-end library: React
