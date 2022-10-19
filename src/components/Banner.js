@@ -8,7 +8,7 @@ import { HashLink } from 'react-router-hash-link';
 import {
   BrowserRouter as Router
 } from "react-router-dom";
-import money from "../assets/img/pexels.jpg";
+import block from "../assets/img/Block.jpg";
 
 
 export const Banner = () => {
@@ -17,7 +17,7 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = [ "Web3", "Defi", "DAO", "ERC Standards", "NFT", "Layer 2 solutions", "IPFS", "Proxy" ];
+  const toRotate = [ "Web3", "Defi", "DAO", "ERC", "NFT", "Layer 2", "IPFS", "Proxy" ];
   const period = 2000;
 
   useEffect(() => {
@@ -62,7 +62,7 @@ export const Banner = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to BlockTheChain</span>
-                <h1>{`Dive into the world of blockchain!`} <span style={{color:'blue'}} className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web3", "Defi", "DAO", "ERC Standards", "NFT", "Layer 2 solutions", "IPFS", "Proxy" ]'><span className="wrap">{text}</span></span></h1>
+                <h1>{`Dive into the world of blockchain!`} <span style={{color:'blue'}} className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web3", "Defi", "DAO", "ERC", "NFT", "Layer 2", "IPFS", "Proxy" ]'><span className="wrap">{text}</span></span></h1>
                   <p>We exist to deliver top content for developers who want to enter blockchain world with ease. Step by step we solve decentralized problems which you can follow on our YouTube channel. If you're looking for opportunities contact us via contact.blockthechain@gmail.com</p>
                   <Router>
                   <HashLink to='#connect'>
@@ -76,7 +76,7 @@ export const Banner = () => {
             <TrackVisibility>
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
-                  <img src={money} alt="Header Img"/> 
+                  <img src={block} alt="Header Img"/> 
                 </div>}
             </TrackVisibility>
           </Col>
